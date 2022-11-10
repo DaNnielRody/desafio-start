@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/444294.png" type="image/x-icon" />
+    <title>DansServices - Atendimento </title>
+
+    <script src="./js/scripts.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <header id="header">
+            <a href="">
+                <img src="./img/444294.png" alt="">
+            </a>
+
+            <p>DansServices</p>
+
+        </header>
+        <section class="section-items">
+            <a href="#home">Home</a> 
+            <a href="sobre.html" target="_blank">Sobre</a> 
+            <a href="#form" class="scroll">Formulário</a>
+        </section>
+    </nav>
+    <section id="home">
+        <div class="container">
+            <div class="column-left">
+                <h1>Meu Site de Atendimentos</h1>
+                <p>
+                    Entre em contato pelo formulário para eu saber como melhor te atender e em quais tabelas de preço.
+                </p>
+                <a id="CTA-button" href="#form">Comece agora!</a>
+            </div>
+            <div class="column-right">
+                <img src="./img/image.gif" alt="illustration" id="home-image" />
+            </div>
+        </div>
+    </section>
+    
+    <form id="form" action="http://google.com">
+    <section id="form-info">
+            
+            <h2 id="title">Formulário de Interesses</h2>
+            <p class="form-reset">Digite seu nome:
+                <input type="text" name="userName" id="userName" size=40 maxlength=40 placeholder="Digite seu nome completo">
+            </p>
+            <p class="form-reset">Digite seu Email:
+                <input type="email" name="email" id="email" size=40 maxlength=40 placeholder="E-mail">
+            </p>
+            <p class="form-reset">Me conte um pouquinho sobre você:
+                <textarea name="userComment" id="userComment" placeholder="Eu..."></textarea>
+            </p>
+            <p class="form-reset">Por onde você quer que eu comece?
+                <input type="checkbox" name="Books">Front
+                <input type="checkbox" name="Web">Back
+                <input type="checkbox" name="Apps">UI
+                <input type="checkbox" name="Magazines">UX
+            </p>
+            <p class="form-reset">Qual a forma de Serviço?
+                <select name="moviePref">
+                    <option></option>
+                    <option value=1>Site</option>
+                    <option value=2>Aplicativo</option>
+                    <option value=3>Jogo</option>
+                    <option value=4>Aprimoramento</option>
+                    <option value=5>Consulta</option>
+                </select>
+            </p>
+            <input id="form-button" type=submit value="ENVIAR">
+        </section>
+    </form>
+</body>
+
+</html>
